@@ -1,0 +1,45 @@
+/* slideshow.css */
+/* Customize the indicator styles here */
+main {
+    background-color:#e5eaf5;    
+  }
+
+ 
+
+
+
+.react-slideshow-container+ul.indicators{
+    margin: 0;
+}
+
+
+.react-slideshow-container+ul.indicators li{
+   padding: 7px;
+}
+
+
+.indicators{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    z-index: 1;
+}
+
+
+
+.react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
+    background: white;
+    opacity: 1;
+}
+  
+
+.react-slideshow-container+ul.indicators .each-slideshow-indicator {
+    opacity: 0.4;
+
+}
+
+
+.react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
+    height: 10px;
+    width: 10px;
+}
